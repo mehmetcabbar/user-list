@@ -1,0 +1,98 @@
+.userlist-container {
+    background-color: white;
+    margin: 20px;
+}
+
+.userlist-wrapper {
+    background-color: ghostwhite;
+    width: 440px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.user-picture.box {
+    display: flex;
+    flex: 1;
+    justify-content: left;
+}
+
+.user-image {
+    border-radius: 50%;
+    margin: 14px;
+}
+
+.user-content {
+    flex: 2
+}
+
+.user-content-box {
+    margin-top: -14px;
+}
+
+.user-title {
+    font-size: 18px;
+}
+
+.userlist-icon {
+    color: #979797;
+    font-size: 12px;
+}
+
+.user-text {
+    font-size: 14px;
+    color: #979797
+}
+
+.user-text-last {
+    font-size: 14px;
+    color: #979797;
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 910px) {
+    .userlist-container {
+        margin: 14px 14px 14px 14px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .userlist-wrapper {
+        background-color: ghostwhite;
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .user-content-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .user-title {
+        text-align: center;
+    }
+
+    .user-text {
+        flex: 1
+    }
+
+    .user-text-last {
+        font-size: 14px;
+        color: #979797;
+        margin-top: 12px;
+        padding-bottom: 24px;
+        text-align: center;
+        flex: 1
+    }
+}

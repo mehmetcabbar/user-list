@@ -1,0 +1,13 @@
+.head-container {
+    background-color: ghostwhite;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-title {
+    font-size: 24px;
+    color: #CACACA;
+    font-weight: 700;
+}
